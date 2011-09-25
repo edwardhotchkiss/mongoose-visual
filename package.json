@@ -1,7 +1,7 @@
 
 {
-    "name": "Mongoose Visual",
-    "description": "Generate a styled HTML document representing your loaded Mongoose.js Schemas",
+    "name": "mongoose-visual",
+    "description": "Generate a styled HTML document representing your loaded Mongoose.js Models",
     "version": "0.0.1",
     "author" : "Edward Hotchkiss",
     "maintainers":[
@@ -15,8 +15,8 @@
    		"visual": "./bin/mongoose-visual.js"
    	},
     "dependencies" : {
-        "express":"",
-        "mongoose"""
+        "express":"2.4.3",
+        "mongoose":"2.2.0"
     },
    	"engines": { "node": ">= 0.4.9 < 0.5.4" }
 }
