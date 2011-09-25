@@ -12,7 +12,11 @@
     ],
     "keywords": ["mongoose", "model", "schema", "visual"],
     "bin": {
-   		"visuals": "./bin/mongoose-visual.js"
+   		"visual": "./bin/mongoose-visual.js"
    	},
+    "dependencies" : {
+        "express":"",
+        "mongoose"""
+    },
    	"engines": { "node": ">= 0.4.9 < 0.5.4" }
 }
