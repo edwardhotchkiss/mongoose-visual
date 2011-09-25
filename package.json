@@ -1,0 +1,18 @@
+
+{
+    "name": "Mongoose Visual",
+    "description": "Generate a styled HTML document representing your loaded Mongoose.js Schemas",
+    "version": "0.0.1",
+    "author" : "Edward Hotchkiss",
+    "maintainers":[
+        {
+            "name":"Edward Hotchkiss",
+            "email":"e@ingk.com"
+        }
+    ],
+    "keywords": ["mongoose", "model", "schema", "visual"],
+    "bin": {
+   		"visuals": "./bin/mongoose-visual.js"
+   	},
+   	"engines": { "node": ">= 0.4.9 < 0.5.4" }
+}
