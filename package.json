@@ -14,8 +14,8 @@
     "visual": "./bin/mongoose-visual.js"
   },
   "dependencies" : {
-    "express":"2.4.3",
-    "mongoose":"2.2.0"
+    "express":"2.5.4",
+    "mongoose":"2.4.8"
   },
   "engines": { "node": ">= 0.4.11 < 0.8.0" }
 }
