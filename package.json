@@ -1,22 +1,18 @@
-
 {
-    "name": "mongoose-visual",
-    "description": "Generate a styled HTML document representing your loaded Mongoose.js Models",
-    "version": "0.0.1",
-    "author" : "Edward Hotchkiss",
-    "maintainers":[
-        {
-            "name":"Edward Hotchkiss",
-            "email":"e@ingk.com"
-        }
-    ],
-    "keywords": ["mongoose", "model", "schema", "visual"],
-    "bin": {
-   		"visual": "./bin/mongoose-visual.js"
-   	},
-    "dependencies" : {
-        "express":"2.4.3",
-        "mongoose":"2.2.0"
-    },
-   	"engines": { "node": ">= 0.4.9 < 0.5.4" }
+  "name": "mongoose-visual",
+  "description": "Generate a styled HTML document representing your loaded Mongoose.js Models",
+  "version": "0.0.1",
+  "author" : "Edward Hotchkiss",
+  "maintainers":[
+    { "name":"Edward Hotchkiss", "email":"edward@edwardhotchkiss.com" }
+  ],
+  "keywords": ["mongoose", "model", "schema", "visual"],
+  "bin": {
+    "visual": "./bin/mongoose-visual.js"
+  },
+  "dependencies" : {
+    "express":"2.4.3",
+    "mongoose":"2.2.0"
+  },
+  "engines": { "node": ">= 0.4.11 < 0.8.0" }
 }
