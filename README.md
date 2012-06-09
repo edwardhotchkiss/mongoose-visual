@@ -7,9 +7,9 @@
  **Example**
 
  ```bash
- $ npm install mongoose-visuals
- $ cd ~/Sites/mySiteWithAModelsDir
- $ visuals docs
- $ visuals server
- $ open http://localhost:8080/
+ $ npm install mongoose-visual
+ $ cd ~/Sites/MySite/
+ $ mongoosevisual docs /my-models/
+ $ mongoosevisual server
+ $ open http://localhost:8000/
  ```
